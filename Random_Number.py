@@ -1,6 +1,7 @@
 '''
 Print Minimum, Maximum and average Random Numbers  in python 
 '''
+print("Welcome to my Program! This program will help you to generate random numbers")
 import numpy as np
 import random
 N=20
@@ -12,6 +13,7 @@ _Min=min(Num)
 _Sum=sum(Num)
 _len=len(Num)
 average=_Sum/_len
-print("Maximum value is ",_Max)
-print("Minimum value is ",_Min)
-print("Average value is ",average)
+print("Maximum value is = ",_Max)
+print("Minimum value is = ",_Min)
+print("Average value is = ",average)
+print("Thanks for using my Program")
